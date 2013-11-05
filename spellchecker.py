@@ -61,7 +61,8 @@ def spellcheck(word):
 
 
 # Scan input word for vowels and output a list of possible permutations
-# (the length of the output list will always be 5, one for each vowel).
+# (the length of the output list will always be 5**n, where n is the number of
+# vowels in the word).
 # Then, recursively perform the same operation on each possible permutation 
 # of the original word, until the end of the word is reached.
 
